@@ -34,7 +34,6 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
   const addProduct = async (productId: number) => {
     try {
       // TODO
-      console.log("Add product")
       const {data: product} = await api.get<Product>(`/products/${productId}`)
       if(!product){
         toast.error('Erro na adição do produto');
