@@ -96,7 +96,7 @@ describe('Home Page', () => {
     mockedUseCartHook.mockReturnValueOnce({
       cart: [
         {
-          amount: 3,
+          amount: 4,
           id: 1,
           image:
             'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis1.jpg',
